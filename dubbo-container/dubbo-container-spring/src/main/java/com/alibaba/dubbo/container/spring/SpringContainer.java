@@ -34,7 +34,7 @@ public class SpringContainer implements Container {
 
     public static final String SPRING_CONFIG = "dubbo.spring.config";
     
-    public static final String DEFAULT_SPRING_CONFIG = "classpath*:META-INF/spring/*.xml";
+    public static final String DEFAULT_SPRING_CONFIG = "classpath*:spring/*.xml";
 
     static ClassPathXmlApplicationContext context;
     
